@@ -51,6 +51,7 @@ header > nav {
   display: flex;
   justify-content: center;
   padding: .625rem 1.25rem;
+  border-bottom: 1px solid white
 }
 
 header > nav > ul {
