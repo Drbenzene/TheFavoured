@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --primary: #ccc;
+  --mainWhite: #fff;
+  --mainDark: #000;
+  --mainRed: rgb(176, 16, 16, 0.623);
+  --greenYellow: greenYellow;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* globals */
+body {
+  font-family: 'Raleway', sans-serif;;
+  font-weight: 18.75rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+/*End Globals */
+header {
+  background-color: var(--mainRed);
+  color: var(--mainWhite);
+  min-height: 28.125rem;
+  background: url("../Images/bcg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+header > nav {
+  display: flex;
+  justify-content: center;
+  padding: .625rem 1.25rem;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > nav > ul >li {
+  margin-right: 3.125rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+header > nav > ul >li > a:hover {
+  text-decoration: underline;
+  /* color: var(--greenYellow); */
+  text-decoration-color: var(--greenYellow);
+  transition: all 1s ease-in-out;
+  transform: scale(1.5);
+  font-size: 2rem;
+}
