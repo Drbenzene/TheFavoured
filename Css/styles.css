@@ -200,7 +200,7 @@ tr {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 490px) {
   .container {
     overflow: hidden;
   }
@@ -217,5 +217,13 @@ tr {
 
   .banner > div > h1 {
     font-size: 6.875rem;
+  }
+
+  .footer > div > h2 {
+    font-size: 30px;
+  }
+
+  header > nav > ul >li {
+    margin-right: 1rem;
   }
 }

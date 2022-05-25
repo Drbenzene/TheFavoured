@@ -121,4 +121,44 @@ td > button {
       justify-content: center;
       align-items: center;
     }
+
+    .cart-con {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cart-con span {
+      margin: 1.25rem
+    }
+
+    .firstTd {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .firstTd > img {
+      margin-right: 0rem;
+      width: 50vw;
+      height: 30vh;
+      border-radius: 20px;
+    }
+
+    #price {
+      display: none;
+    }
+
+    #quanity {
+      display: none;
+    }
+
+    .firstTd span {
+      margin: 0
+    }
+
+    table {
+      min-width: auto;
+      max-width: auto;
+      margin: 0 auto;
+    }
   }
