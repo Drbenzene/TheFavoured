@@ -4,10 +4,6 @@
   margin: 0rem 0rem 2.6563rem;
 }
 
-.item-con {
-  margin-right: 20px
-}
-
 .cart-con {
   display: flex;
   justify-content: space-between;
@@ -22,6 +18,107 @@
   font-size: 1rem;
 }
 
+.cart-con > button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
 .items-row {
+  display: grid;
+  grid-template-areas: 'item1 item1';
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 1.875rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+table {
+  min-width: 600px;
+  max-width: 75%;
+  margin: 0 auto;
+}
+table > tbody > tr >td {
+  border-bottom: none;
+}
+
+.firstTd {
   display: flex;
 }
+
+.firstTd > img {
+  margin-right: 10px;
+}
+
+td > button { 
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #eb5757;
+}
+  
+  td > button:hover {
+    background-color: #e87676;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .tdQuanity {
+    width: 100px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+
+  .firstTd span {
+    margin: 20px
+  }
+
+  .theTotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .theTotal > h4 {
+    font-size: 30px;
+    margin: 50px 0px
+  }
+
+  .theTotal > button {
+    background-color: blue;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .theTotal > button:hover {
+    background-color: rgb(11, 11, 244, 0.5);
+    cursor:pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+
+
+
+  /* Designing For Mobile Responsiveness */
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      overflow: hidden;
+    }
+    .items-row {
+      grid-template-areas: "item1";
+    }
+
+    table > tbody > tr >td {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }

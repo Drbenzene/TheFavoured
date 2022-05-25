@@ -196,3 +196,26 @@ tr {
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    overflow: hidden;
+  }
+  .items-row {
+    grid-template-areas: "item1";
+  }
+
+  table > tbody > tr >td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner > div > h1 {
+    font-size: 6.875rem;
+  }
+}
