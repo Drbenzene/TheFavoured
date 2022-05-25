@@ -1,0 +1,27 @@
+.item-con > div > h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0rem 0rem 2.6563rem;
+}
+
+.item-con {
+  margin-right: 20px
+}
+
+.cart-con {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.625rem 1.5rem;
+}
+
+.cart-con > span { 
+  font-size: 1.5rem;
+}
+
+.cart-con > button {
+  font-size: 1rem;
+}
+
+.items-row {
+  display: flex;
+}

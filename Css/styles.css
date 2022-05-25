@@ -44,10 +44,17 @@ a {
   color:inherit;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: "Booter - Zero Zero";
 }
 
+button {
+background-color: black;
+color: white !important;
+padding: .625rem 1.25rem;
+border-radius: 5px;
+text-align: center;
+}
 /*End Globals */
 header {
   background-color: var(--mainRed);
@@ -185,8 +192,7 @@ tr {
 }
 
 .social-icons > i:hover {
-  transform: translate3;
-  transition: all 0.5s ease;
+  transform: translateY(-10px);
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
-  font-size: 2rem;
 }
