@@ -184,3 +184,9 @@ tr {
   padding-right: 1.25rem;
 }
 
+.social-icons > i:hover {
+  transform: translate3;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 2rem;
+}

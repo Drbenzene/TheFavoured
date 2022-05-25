@@ -1,0 +1,11 @@
+.blog-img > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1.25rem
+}
+
+.blog-img {
+  margin: 50px 200px;
+}
