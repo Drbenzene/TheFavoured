@@ -45,7 +45,7 @@
             <h4>Item 1</h4>
           </div>
 
-          <div>
+          <div class="image-div">
             <img src="./Images/violin.jpg" alt="items" height="400" />
           </div>
 
@@ -152,75 +152,76 @@
 
 
     <!-- The Cart Section Starts Here -->
-    <div class="addedcart-con">
+    <div class="addedCart-con">
       <h2 style="text-align:center; font-size:80px; margin: 60px 0px">CART</h2>
 
-      <table class="table">
-        <thead>
-          <tr>
-            <th>ITEM</th>
-            <th id="price">PRICE</th>
-            <th id="quanity">QUANTITY</th>
-          </tr>
-        </thead>
+      <div class="tablediv">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ITEM</th>
+              <th>PRICE</th>
+              <th>QUANTITY</th>
+            </tr>
+          </thead>
 
-        <tbody>
-          <tr class="addedcart-rows">
-            <td class="firstTd">
-              <img src="./images/microphone.jpg" alt="cart image" width="100px" height="100px">
-              <span>Microphone</span>
-            </td>
+          <tbody>
+            <tr class="addedCart-row">
+              <td class="firstTd">
+                <img src="./images/microphone.jpg" alt="cart image" width="100px" height="100px">
+                <span>Microphone</span>
+              </td>
 
-            <td>₦4000</td>
+              <td class="cart-Item-Price">₦4000</td>
 
-            <td><input type="number" name="quntity" class="tdQuanity"> </td>
+              <td><input type="number" name="quantity" class="tdQuantity" value="1"> </td>
 
-            <td><button>REMOVE</button></td>
-
-            <tr class="addedcart-rows">
+              <td><button class="remove-item-button">REMOVE</button></td>
+            </tr>
+            <tr class="addedCart-row">
               <td class="firstTd">
                 <img src="./images/piano.jpg" alt="cart image" width="100px" height="100px">
                 <span style="text-align:center;">Expo Piano</span>
               </td>
-  
-              <td>₦4000</td>
-  
-              <td><input type="number" name="quntity" class="tdQuanity"> </td>
-  
-              <td><button>REMOVE</button></td>
+
+              <td class="cart-Item-Price">₦4000</td>
+
+              <td><input type="number" name="quantity" class="tdQuantity" value="1"> </td>
+
+              <td><button class="remove-item-button">REMOVE</button></td>
             </tr>
 
-            <tr class="addedcart-rows">
+            <tr class="addedCart-row">
               <td class="firstTd">
                 <img src="./images/headphone.jpg" alt="cart image" width="100px" height="100px">
                 <span style="text-align:center;">Headphone</span>
               </td>
-  
-              <td>₦4000</td>
-  
-              <td><input type="number" name="quntity" class="tdQuanity"> </td>
-  
-              <td><button>REMOVE</button></td>
+
+              <td class="cart-Item-Price">₦4000</td>
+
+              <td><input type="number" name="quantity" class="tdQuantity" value="1"> </td>
+
+              <td><button class="remove-item-button">REMOVE</button></td>
             </tr>
 
-            <tr class="addedcart-rows">
+            <tr class="addedCart-row">
               <td class="firstTd">
                 <img src="./images/sax.jpg" alt="cart image" width="100px" height="100px">
                 <span style="text-align:center;">Saxophone</span>
               </td>
-  
-              <td>₦4000</td>
-  
-              <td><input type="number" name="quntity" class="tdQuanity"> </td>
-  
-              <td><button>REMOVE</button></td>
+
+              <td class="cart-Item-Price">₦4000</td>
+
+              <td><input type="number" name="quantity" class="tdQuantity" value="1"> </td>
+
+              <td><button class="remove-item-button">REMOVE</button></td>
             </tr>
-          </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </div>
 
       <div class="theTotal">
-        <h4> Total: ₦4000</h4>
+        <h4 class="cart-items-total"> Total: ₦4000</h4>
 
         <button>PURCHASE</button>
       </div>
@@ -230,7 +231,7 @@
 
 
 
-  <!-- The Footer Sextion Starts Here -->
+  <!-- The Footer Section Starts Here -->
 
   <footer class="footer">
 

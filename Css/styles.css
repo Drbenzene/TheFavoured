@@ -68,6 +68,7 @@ header {
 
 header > nav {
   display: flex;
+  background-color: black;
   justify-content: center;
   padding: .625rem 1.25rem;
   border-bottom: 1px solid white;
@@ -197,22 +198,25 @@ tr {
   cursor: pointer;
 }
 
+.theTableDiv {
+  overflow: auto !important;
+}
 
+.theTableDiv table {
+  min-width: 600px !important;
+  max-width: 100% !important;
+
+}
 
 
 @media only screen and (max-width: 490px) {
+
   .container {
     overflow: hidden;
   }
+  
   .items-row {
     grid-template-areas: "item1";
-  }
-
-  table > tbody > tr >td {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .banner > div > h1 {
